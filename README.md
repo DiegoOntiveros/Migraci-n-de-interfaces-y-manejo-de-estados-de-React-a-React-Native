@@ -1,12 +1,12 @@
-# Pantallas con React Native y Expo
+# Pelitodo: pantallas con React Native y Expo
 
-Aplicación móvil creada desde la plantilla `blank` de Expo. Incluye tres componentes de pantalla:
+Aplicación creada desde la plantilla `blank` de Expo y adaptada a partir del flujo y la pantalla principal Pelitodo del proyecto Flutter:
 
 - **Registro:** nombre, correo electrónico y contraseña en estado local con `useState`.
 - **Inicio de sesión:** correo y contraseña en estado local con `useState`.
-- **Bienvenida:** saludo con el nombre y acción para cerrar sesión.
+- **Bienvenida/Inicio:** catálogo, búsqueda, películas guardadas, perfil y cierre de sesión.
 
-La navegación entre pantallas se implementa con estado de React, sin dependencias de navegación. La validación es local y no conecta con un servicio de autenticación.
+La navegación y los formularios usan estado de React, sin dependencias de navegación. La validación, la búsqueda y los favoritos son locales; no se conecta con un servicio de autenticación.
 
 ## Ejecutar
 
